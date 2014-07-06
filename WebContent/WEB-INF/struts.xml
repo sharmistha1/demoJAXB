@@ -1,0 +1,5 @@
+<struts>
+<action  url="employeefetch" clazz="Employee" method="fetchEmp"></action>
+<action  url="employeesave" clazz="Employee" method="saveEmp"></action>
+
+</struts>
