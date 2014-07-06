@@ -27,11 +27,11 @@ public class FrontController extends HttpServlet {
     }
 
 	/**
-	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
+	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response) 
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		System.out.println("test called");
-		
+		System.out.println("test");
 		String filePath = request.getRealPath("/WebContent/WEB-INF/struts.xml");
 		File file=new File(filePath);
 		

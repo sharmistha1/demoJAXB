@@ -8,6 +8,8 @@ public class Action {
 String url;
 String clazz;
 String method;
+
+
 @XmlAttribute
 public String getUrl() {
 	return url;

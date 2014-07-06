@@ -6,6 +6,7 @@ import javax.xml.bind.annotation.XmlRootElement;
 @XmlRootElement
 public class Struts {
 	Action action;
+	
 
 	@XmlAttribute
 	public Action getAction() {
